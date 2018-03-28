@@ -3,14 +3,58 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
  */
-
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
   padding-top: 54px;
   margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+/*
+.navbarbuttons {
+  margin-left: 20px;
+} */
+
+
+nav {
+  margin-left: 20px;
+  font-family: 'Passion One', cursive;
+  font-size: 22px;
+}
+
+h3 {
+    font-family: 'Passion One', cursive;
+}
+
+small {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sup:hover {
+  width: 60%;
+}
+
+.cardborder {
+  border: 1px solid black;
+}
+
+.cardtop {
+  border-top: 1px solid black;
+}
+
+.ohshitmynavbarisnotworking {
+  width: 100%;
+  margin-left: 0;
+}
+
+.ohshitmyfooterisnotworking {
+  width: 100%;
+  margin: 0;
 }
